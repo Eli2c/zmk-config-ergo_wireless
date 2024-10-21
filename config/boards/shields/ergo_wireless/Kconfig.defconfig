@@ -1,0 +1,6 @@
+if SHIELD_ERGO_WIRELESS
+
+config ZMK_KEYBOARD_NAME
+    default "ergo_handwired"
+
+endif
