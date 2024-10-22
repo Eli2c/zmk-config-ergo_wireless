@@ -16,7 +16,7 @@
                 &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp M
                 &lt LOWER ESC  &kp BSPC  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp RET  &kp RALT
                 
-                            &kp LS   &kp SPACE   &kp LC  &kp RC  &kp SPACE   &kp RS  
+                            &kp LS  &kp SPACE  &kp LC  &kp RC  &kp SPACE  &kp RS  
             >;
         }; 
 
