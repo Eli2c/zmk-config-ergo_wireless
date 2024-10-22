@@ -5,7 +5,7 @@
 / {  
     keymap {
         compatible = "zmk,keymap";
-        #define default_layer 0
+        #define default_layout 0
         #define symbols 1
         #define misc 2
         #define bt_layer 3
