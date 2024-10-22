@@ -16,7 +16,7 @@
                 &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp M
                 &lt symbols ESC  &kp BSPC  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp RET  &kp RALT
                 
-                            &kp LS  &kp SPACE  &kp LC  &kp RC  &kp SPACE  &kp RS  
+                            &kp LSHFT  &kp SPACE  &kp LCTRL  &kp RCTRL  &kp SPACE  &kp RSHFT  
             >;
         }; 
 
@@ -26,7 +26,7 @@
                 &lt misc GRAVE  &trans   &kp CLCK  &kp UP  &kp TAB  &kp SEMI  &kp SQT  &kp NUBS  &kp LBKT  &kp RBKT
                 &trans  &kp LGUI  &kp LEFT  &kp DOWN   &kp RIGHT  &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS  &kp EQUAL
                 
-                           &kp LS   &kp SPACE   &kp LC  &kp RC  &kp SPACE   &kp RS  
+                            &kp LSHFT  &kp SPACE  &kp LCTRL  &kp RCTRL  &kp SPACE  &kp RSHFT 
             >;
         }; 
         misc {
@@ -35,7 +35,7 @@
                 &mo bt_layer   &trans   &kp PSCRN   &kp SLCK  &kp PAUSE_BREAK  &kp INS   &kp HOME  &kp PG_UP  &kp F11   &kp F12
                 &trans  &trans   &trans   &trans   &trans  &kp DEL  &kp END  &kp PG_DN  &trans   &trans
                 
-                           &kp LS   &kp SPACE   &kp LC  &kp RC  &kp SPACE   &kp RS  
+                            &kp LSHFT  &kp SPACE  &kp LCTRL  &kp RCTRL  &kp SPACE  &kp RSHFT
             >;
         }; 
         
