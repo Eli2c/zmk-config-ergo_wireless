@@ -8,6 +8,7 @@
         #define default 0
         #define symbols 1
         #define misc 2
+        #define bt_layer 3
 
         default {
             bindings = <
