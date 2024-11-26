@@ -1,10 +1,5 @@
 #include <physical_layouts.dtsi>
-/ {
-    chosen {
-        zmk,physical-layout = &physical_layout0;
-        // Other chosen items
-    };
-};
+
 / {
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
