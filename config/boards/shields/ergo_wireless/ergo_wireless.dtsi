@@ -1,4 +1,6 @@
+
 #include <physical_layouts.dtsi>
+#include "ergo_wireless.overlay"
 
 / {
     physical_layout0: physical_layout_0 {
