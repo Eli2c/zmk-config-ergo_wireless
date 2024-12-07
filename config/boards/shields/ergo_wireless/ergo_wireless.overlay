@@ -9,6 +9,9 @@
         // Other chosen items
     };
 }
+&left_encoder {
+    status = "okay";
+};
 ; / {
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
