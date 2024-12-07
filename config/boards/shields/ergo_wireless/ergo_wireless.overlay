@@ -46,7 +46,7 @@
         status = "disabled";
     };
 };
- /{ &left_encoder {
+ /  &left_encoder {
     status = "okay";
 };
 };
