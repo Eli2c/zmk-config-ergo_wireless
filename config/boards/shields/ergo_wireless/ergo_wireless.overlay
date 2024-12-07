@@ -47,6 +47,7 @@
     };
 ;&left_encoder {
     status = "okay";
+};
 / {
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
