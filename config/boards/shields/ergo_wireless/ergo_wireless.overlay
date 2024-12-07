@@ -9,8 +9,7 @@
         // Other chosen items
     };
 }
-&left_encoder {
-    status = "okay";
+
 };
 ; / {
     kscan0: kscan0 {
@@ -46,7 +45,8 @@
         steps = <80>;
         status = "disabled";
     };
-
+&left_encoder {
+    status = "okay";
 / {
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
