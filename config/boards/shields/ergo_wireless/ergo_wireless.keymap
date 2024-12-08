@@ -11,7 +11,7 @@
         #define bt_layer 3
 
 
-sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+
 
 
         default_layer {
@@ -21,6 +21,8 @@ sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 &lt symbols ESC  &kp BSPC  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp RET  &kp RALT
                 
                               &kp SPACE  &kp LCTRL  &kp RCTRL  &kp SPACE  
+
+sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             >;
         }; 
 
@@ -31,6 +33,8 @@ sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 &trans  &kp LGUI  &kp LEFT  &kp DOWN   &kp RIGHT  &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS  &kp EQUAL
                 
                               &kp SPACE  &kp LCTRL  &kp RCTRL  &kp SPACE   
+
+sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             >;
         }; 
         misc {
@@ -40,6 +44,8 @@ sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
                 &trans  &trans   &trans   &trans   &trans  &kp DEL  &kp END  &kp PG_DN  &trans   &trans
                 
                               &lt bt_layer SPACE &kp LCTRL  &kp RCTRL  &kp SPACE 
+
+sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
             >;
         }; 
         
