@@ -1,2 +1,0 @@
-config SHIELD_ERGO_WIRELESS
-    def_bool $(shields_list_contains, ergo_wireless)
