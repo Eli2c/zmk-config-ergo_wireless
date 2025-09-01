@@ -1,4 +1,4 @@
-if SHIELD_ERGO_WIRELESS
+if SHIELD_ERGO_WIRELESS_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "ergo_wireless"
