@@ -1,6 +1,6 @@
 #include "ergo_wireless.dtsi"
 
-&transform {
+&default_transform {
     col-offset = <5>;
 };
 
