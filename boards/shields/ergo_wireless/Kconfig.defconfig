@@ -3,4 +3,15 @@ if SHIELD_ERGO_WIRELESS
 config ZMK_KEYBOARD_NAME
     default "ergo_wireless"
 
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_ERGO_WIRELESS_LEFT || SHIELD_ERGO_WIRELESS_RIGHT
+
+config ZMK_SPLIT
+    default y
+
 endif
