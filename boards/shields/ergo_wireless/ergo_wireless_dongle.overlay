@@ -1,7 +1,12 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "ergo_wireless.dtsi"
 
-/ {
+/ {    chosen {
+        zmk,kscan = &mock_kscan;
+        zmk,physical-layout = &physical_layout0;
+    };
+
+
     mock_kscan: mock_kscan0 {
         compatible = "zmk,kscan-mock";
         columns = <0>;
@@ -26,12 +31,8 @@
     transform = <&default_transform>;
 };
 
-/ {
-    chosen {
-        zmk,kscan = &mock_kscan;
-        zmk,physical-layout = &physical_layout0;
-    };
-};
+
+ 
 
     
 };
