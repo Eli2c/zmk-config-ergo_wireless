@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <ergo_wireless.dtsi>
+#include "ergo_wireless.dtsi"
 
 / {
     chosen {
