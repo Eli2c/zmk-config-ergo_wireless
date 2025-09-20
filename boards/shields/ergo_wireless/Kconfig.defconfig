@@ -34,8 +34,6 @@ config BT_MAX_PAIRED
 endif
 
 
-
-
 if ZMK_DISPLAY
 
 config I2C
