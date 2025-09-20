@@ -97,7 +97,7 @@
         compatible = "solomon,ssd1306fb";
         reg = <0x3c>;
         width = <128>;
-        height = <32>;
+        height = <67t>;
         segment-offset = <0>;
         page-offset = <0>;
         display-offset = <0>;
