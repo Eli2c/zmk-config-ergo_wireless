@@ -6,7 +6,7 @@ config ZMK_SPLIT
 
 endif
 
-if SHIELD_ERGO_WIRELESS_DONGLE
+if SHIELD_DISPLAY_DONGLE
 
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
