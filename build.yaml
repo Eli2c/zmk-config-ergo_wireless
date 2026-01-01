@@ -18,11 +18,11 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: promicro_nrf52840
     shield: ergo_wireless_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-  - board: nice_nano_v2
+  - board: promicro_nrf52840
     shield: ergo_wireless_right
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
-  - board: nice_nano_v2
+  - board: promicro_nrf52840
     shield: settings_reset
