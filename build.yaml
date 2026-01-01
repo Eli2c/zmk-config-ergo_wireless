@@ -18,11 +18,11 @@
 #
 ---
 include:
-  - board: nicenano_v2
+  - board: nice_nano_v2
     shield: ergo_wireless_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-  - board: nicenano_v2
+  - board: nice_nano_v2
     shield: ergo_wireless_right
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
-  - board: nicenano_v2
+  - board: nice_nano_v2
     shield: settings_reset
