@@ -6,7 +6,7 @@ config ZMK_SPLIT
 
 endif
 
-if SHIELD_ERGO_WIRELESS_RIGHT
+if SHIELD_ERGO_WIRELESS_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "ec_s2_wireless"
