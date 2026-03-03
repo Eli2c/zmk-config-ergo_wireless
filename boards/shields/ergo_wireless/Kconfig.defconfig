@@ -9,7 +9,7 @@ endif
 if SHIELD_ERGO_WIRELESS_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "ec_s2_wireless"
+    default "ec_s2_v2"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
