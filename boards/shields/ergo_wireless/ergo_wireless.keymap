@@ -54,7 +54,7 @@ sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         bt_layer {
             bindings = <
                 &trans     &trans     &trans     &bootloader      &trans     &trans           &trans      &trans     &trans     &trans
-                &trans     &trans     &trans     &trans           &trans     &studio_unlock   &bt BT_CLR  &trans     &trans     &trans
+                &trans     &trans     &trans     &trans           &studio_unlock      &studio_unlock   &bt BT_CLR  &trans     &trans     &trans
                 &trans     &trans     &trans     &trans           &trans     &trans           &trans      &trans     &trans     &trans
                                       &trans     &trans           &trans     &trans           &trans      &trans     
                                          
